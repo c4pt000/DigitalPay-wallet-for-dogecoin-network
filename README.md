@@ -26,7 +26,7 @@ https://github.com/c4pt000/electrum-wallet-for-dogecoin-WIP
 docker run -it c4pt/dogesnap-wallet
 ```
 
-to mount the blockchain on the host from docker
+linux to mount the blockchain on the host from docker
 
 ```
 docker run -it -d --net=host -v /opt/dogecoin-blockchain:/opt/dogecoin-datadir/ -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/dogesnap-wallet bash &
@@ -39,7 +39,7 @@ docker exec -it 15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef
 cp -rf /dogecoin-datadir/* /opt/dogecoin-blockchain
 ```
 
-# requires docker dogecoin-qt 
+# requires docker dogecoin-qt  linux
 ```
 docker run -it -d --net=host -v /opt/host-opt:/opt/host-opt -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/dogesnap-wallet dogecoin-qt &
 
@@ -57,6 +57,49 @@ docker commit <docker_vm_hash>
 docker ps -a
 
 ```
+
+
+
+
+# windows docker host
+![s1](https://res.cloudinary.com/practicaldev/image/fetch/s--1fOShFRZ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/3eh1lry7125modpdj6a2.png)
+
+
+```
+https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
+
+https://chocolatey.org/
+
+choco install vcxsrv
+
+run Xlaunch from the start menu 
+
+
+(enable "disable access control")
+
+open -> powershell
+
+ipconfig    (get LAN ip)
+                                  
+set-variable -name DISPLAY -value 192.168.xxx.xx:0.0      <- replace with your LAN ip
+docker run -it c4pt/dogesnap-wallet
+
+docker run -it -d  --net=host --privileged -v C:/opt/host-opt:/opt/host-opt -e DISPLAY=$DISPLAY c4pt/dogesnap-wallet
+
+docker exec -it <docker_vm_hash> bash
+
+dogecoin-qt
+
+
+copy wallet.dat -> /opt/host-opt in guest to backup your wallet
+
+wallet.dat will be located in C:\opt\host-opt on host 
+
+```
+
+
+
+
 
 
 # source build (fedora 34)
