@@ -15,25 +15,33 @@ to mount the blockchain on the host from docker
 ```
 docker run -it -d --net=host -v /opt/dogecoin-blockchain:/opt/dogecoin-datadir/ -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/dogesnap-wallet bash &
 
+15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef <- a docker vm hash
+
+docker exec -it 15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef bash
+
+
 cp -rf /dogecoin-datadir/* /opt/dogecoin-blockchain
 ```
 
 # requires docker dogecoin-qt 
 ```
-docker run -it -d --net=host -v /opt/host-opt:/opt/host-opt -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/dogesnap-wallet bash
-```
-15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef
+docker run -it -d --net=host -v /opt/host-opt:/opt/host-opt -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/dogesnap-wallet dogecoin-qt &
+
+15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef <- a docker vm hash
+
+docker exec -it 15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef bash
+
 
 (once loaded)
+backup wallet copy from /dogecoin-datadir/wallet.dat to /opt/host-opt/wallet.dat
+
+(once loaded) from another terminal to commit changes
 docker commit <docker_vm_hash>
 
 docker ps -a
 
-# backup wallet copy from /dogecoin-datadir/wallet.dat to /opt/host-opt/wallet.dat
 ```
-docker exec -it 15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef bash
-crtl-C to drop to prompt
-```
+
 
 # source build (fedora 34)
 ```
