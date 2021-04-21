@@ -1,6 +1,6 @@
 # Dogecoin Core [DOGE, Ð]
 
-# 3.572GB
+# 3.5 GB
 
 
 ![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-loading-splash.png)
