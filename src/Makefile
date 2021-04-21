@@ -1962,7 +1962,7 @@ AUTOCONF = ${SHELL} /opt/dogecoin/build-aux/missing autoconf
 AUTOHEADER = ${SHELL} /opt/dogecoin/build-aux/missing autoheader
 AUTOMAKE = ${SHELL} /opt/dogecoin/build-aux/missing automake-1.16
 AWK = gawk
-BDB_CPPFLAGS = -I/usr/include/libdb/ -I/usr/include/opencv2/
+BDB_CPPFLAGS =  -I/usr/include/libdb/
 BDB_LIBS = -ldb_cxx
 BITCOIN_CLI_NAME = dogecoin-cli
 BITCOIN_DAEMON_NAME = dogecoind
@@ -1996,8 +1996,8 @@ CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS
 CRYPTO_CFLAGS = 
 CRYPTO_LIBS = -lcrypto 
-CXX = /usr/bin/ccache g++ -std=c++11   
-CXXCPP = g++ -std=c++11 -E     
+CXX = /usr/bin/ccache g++ -std=c++11
+CXXCPP = g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wvla -Wformat-security -Wno-unused-parameter
 CYGPATH_W = echo
@@ -2036,7 +2036,7 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LCOV = 
-LD = /usr/bin/ld -m elf_x86_64
+LD = /usr/bin/ld
 LDFLAGS = 
 LEVELDB_CPPFLAGS =  $(am__append_11)
 LEVELDB_TARGET_FLAGS = -DOS_LINUX
@@ -2064,7 +2064,7 @@ MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
 NM = /usr/bin/nm -B
 NMEDIT = 
 OBJCOPY = /usr/bin/objcopy
-OBJCXX = g++ -std=c++11   
+OBJCXX = g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
 OBJCXXFLAGS = 
 OBJDUMP = objdump
@@ -2081,7 +2081,7 @@ PACKAGE_VERSION = 1.14.3
 PATH_SEPARATOR = :
 PIC_FLAGS = -fPIC
 PIE_FLAGS = -fPIE
-PKG_CONFIG = /usr/bin/pkg-config opencv4 --cflags
+PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
 PKG_CONFIG_PATH = 
 PORT = 
@@ -2101,11 +2101,11 @@ QTPRINT_CFLAGS =
 QTPRINT_LIBS = 
 QTXCBQPA_CFLAGS = 
 QTXCBQPA_LIBS = 
-QT_CFLAGS = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -DQT_NETWORK_LIB -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets -DQT_PRINTSUPPORT_LIB -I/usr/include/qt5/QtPrintSupport -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB  -I/usr/include/libdb/ -I/usr/include/opencv2/
+QT_CFLAGS = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -DQT_NETWORK_LIB -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets -DQT_PRINTSUPPORT_LIB -I/usr/include/qt5/QtPrintSupport -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB 
 QT_DBUS_CFLAGS = -DQT_DBUS_LIB -I/usr/include/qt5/QtDBus -I/usr/include/qt5 -DQT_CORE_LIB -I/usr/include/qt5/QtCore 
 QT_DBUS_INCLUDES = -DQT_DBUS_LIB -I/usr/include/qt5/QtDBus -I/usr/include/qt5 -DQT_CORE_LIB -I/usr/include/qt5/QtCore 
 QT_DBUS_LIBS = -lQt5DBus -lQt5Core 
-QT_INCLUDES = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -DQT_NETWORK_LIB -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets -DQT_PRINTSUPPORT_LIB -I/usr/include/qt5/QtPrintSupport -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/include/libdb/ -I/usr/include/opencv2/
+QT_INCLUDES = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -DQT_NETWORK_LIB -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets -DQT_PRINTSUPPORT_LIB -I/usr/include/qt5/QtPrintSupport -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB 
 QT_LDFLAGS = 
 QT_LIBS = -lQt5Network -lQt5PrintSupport -lQt5Widgets -lQt5Gui -lQt5Core 
 QT_PIE_FLAGS = -fPIE
@@ -2137,7 +2137,7 @@ WINDOWS_BITS =
 WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
-XGETTEXT = /usr/bin/xgettext
+XGETTEXT = 
 ZMQ_CFLAGS = 
 ZMQ_LIBS = -lzmq 
 abs_builddir = /opt/dogecoin/src
@@ -2146,7 +2146,7 @@ abs_top_builddir = /opt/dogecoin
 abs_top_srcdir = /opt/dogecoin
 ac_ct_AR = ar
 ac_ct_CC = gcc
-ac_ct_CXX = g++   
+ac_ct_CXX = g++
 ac_ct_DUMPBIN = 
 ac_ct_OBJCXX = 
 am__include = include
@@ -2338,7 +2338,6 @@ libdogecoin_server_a_SOURCES = \
   httprpc.cpp \
   httpserver.cpp \
   init.cpp \
-  display_image.cpp \
   dbwrapper.cpp \
   merkleblock.cpp \
   miner.cpp \

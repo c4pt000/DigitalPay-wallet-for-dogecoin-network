@@ -284,7 +284,7 @@ AUTOCONF = ${SHELL} /opt/dogecoin/build-aux/missing autoconf
 AUTOHEADER = ${SHELL} /opt/dogecoin/build-aux/missing autoheader
 AUTOMAKE = ${SHELL} /opt/dogecoin/build-aux/missing automake-1.16
 AWK = gawk
-BDB_CPPFLAGS = -I/usr/include/libdb/ -I/usr/include/libdb/ -I/usr/include/opencv2/
+BDB_CPPFLAGS =  -I/usr/include/libdb/
 BDB_LIBS = -ldb_cxx
 BITCOIN_CLI_NAME = dogecoin-cli
 BITCOIN_DAEMON_NAME = dogecoind
@@ -303,7 +303,7 @@ BREW =
 CC = /usr/bin/ccache gcc
 CCACHE = /usr/bin/ccache
 CCDEPMODE = depmode=gcc3
-CFLAGS = -g -O2 -I/usr/include/libdb/ -I/usr/include/opencv2/
+CFLAGS = -g -O2
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
@@ -318,10 +318,10 @@ CPPFILT = /usr/bin/c++filt
 CPPFLAGS =  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS
 CRYPTO_CFLAGS = 
 CRYPTO_LIBS = -lcrypto 
-CXX = /usr/bin/ccache g++ -std=c++11 -I/usr/include/libdb/ -I/usr/include/opencv2/  
-CXXCPP = g++ -std=c++11 -E -I/usr/include/libdb/ -I/usr/include/opencv2/   
+CXX = /usr/bin/ccache g++ -std=c++11
+CXXCPP = g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wvla -Wformat-security -Wno-unused-parameter -I/usr/include/libdb/ -I/usr/include/opencv2/
+CXXFLAGS = -g -O2 -Wall -Wextra -Wformat -Wvla -Wformat-security -Wno-unused-parameter
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -358,7 +358,7 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LCOV = 
-LD = /usr/bin/ld -m elf_x86_64
+LD = /usr/bin/ld
 LDFLAGS = 
 LEVELDB_CPPFLAGS = 
 LEVELDB_TARGET_FLAGS = -DOS_LINUX
@@ -386,7 +386,7 @@ MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
 NM = /usr/bin/nm -B
 NMEDIT = 
 OBJCOPY = /usr/bin/objcopy
-OBJCXX = g++ -std=c++11  
+OBJCXX = g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
 OBJCXXFLAGS = 
 OBJDUMP = objdump
@@ -403,9 +403,7 @@ PACKAGE_VERSION = 1.14.3
 PATH_SEPARATOR = :
 PIC_FLAGS = -fPIC
 PIE_FLAGS = -fPIE
-PKG_CONFIG = /usr/bin/pkg-config opencv4 --cflags 
-OPENCV = pkg-config opencv4 --cflags 
-LIBS = $(OPENCV)
+PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
 PKG_CONFIG_PATH = 
 PORT = 
@@ -429,7 +427,7 @@ QT_CFLAGS = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGu
 QT_DBUS_CFLAGS = -DQT_DBUS_LIB -I/usr/include/qt5/QtDBus -I/usr/include/qt5 -DQT_CORE_LIB -I/usr/include/qt5/QtCore 
 QT_DBUS_INCLUDES = -DQT_DBUS_LIB -I/usr/include/qt5/QtDBus -I/usr/include/qt5 -DQT_CORE_LIB -I/usr/include/qt5/QtCore 
 QT_DBUS_LIBS = -lQt5DBus -lQt5Core 
-QT_INCLUDES = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -DQT_NETWORK_LIB -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets -DQT_PRINTSUPPORT_LIB -I/usr/include/qt5/QtPrintSupport -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I/usr/include/libdb/ -I/usr/include/opencv2/
+QT_INCLUDES = -I/usr/include/qt5/QtCore -I/usr/include/qt5 -I/usr/include/qt5/QtGui -DQT_NETWORK_LIB -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtWidgets -DQT_PRINTSUPPORT_LIB -I/usr/include/qt5/QtPrintSupport -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB 
 QT_LDFLAGS = 
 QT_LIBS = -lQt5Network -lQt5PrintSupport -lQt5Widgets -lQt5Gui -lQt5Core 
 QT_PIE_FLAGS = -fPIE
@@ -461,7 +459,7 @@ WINDOWS_BITS =
 WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
-XGETTEXT = /usr/bin/xgettext
+XGETTEXT = 
 ZMQ_CFLAGS = 
 ZMQ_LIBS = -lzmq 
 abs_builddir = /opt/dogecoin
