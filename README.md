@@ -1,3 +1,9 @@
+
+for electrum as a server node (WIP template only)
+
+https://github.com/c4pt000/electrum-wallet-for-dogecoin-WIP
+
+
 # Dogecoin Core [DOGE, Ð]
 
 # size of synced wallet -> 3.57 GB
