@@ -91,14 +91,17 @@ docker exec -it <docker_vm_hash> bash
 dogecoin-qt &
 
 (once wallet is loaded)
-
-from another powershell
-docker commit <docker_vm_hash>
-
 backup wallet.dat 
 copy wallet.dat -> /opt/host-opt in guest to backup your wallet
 
 wallet.dat will be located in C:\opt\host-opt on host 
+
+cp /dogecoin-datadir/wallet.dat /opt/host-opt
+
+from another powershell
+docker commit <docker_vm_hash>
+
+
 
 ```
 
