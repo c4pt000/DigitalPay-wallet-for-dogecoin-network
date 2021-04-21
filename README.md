@@ -1,5 +1,7 @@
 # Dogecoin Core [DOGE, Ð]
 
+# requires ports 22555 and 22556
+
 * updates every 1-2 hours from a private docker repo as a distribution point to keep blockchain for dogecoin synced to end user client of dogecoin-qt
 
 
