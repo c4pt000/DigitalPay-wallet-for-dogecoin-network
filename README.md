@@ -27,6 +27,29 @@ docker ps -a
 docker exec -it 15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef bash
 crtl-C to drop to prompt
 ```
+
+# source build (fedora 34)
+```
+cd /opt
+
+git clone https://github.com/c4pt000/dogecoin
+
+cd dogecoin
+
+yum groupinstall "C Development Tools and Libraries" -y
+ yum install git-core libdb-cxx-devel libdb-cxx openssl-devel libevent-devel java-11-openjdk-devel cppzmq-devel \
+ qrencode-devel qt5-qtbase-devel.x86_64 qt5-linguist-5.15.2-5.fc34.x86_64 protobuf-devel opencv-devel.x86_64 \
+ opencv-devel-4.5.2-1.fc34.x86_64 cargo -y
+ cp -rf /usr/include/opencv4/opencv2 /usr/include/
+
+./configure --prefix=/usr --with-incompatible-bdb
+
+make -j24                              if your system has 24 cores for faster builds
+make -j24 install
+
+
+```
+
 ![Dogecoin](https://raw.githubusercontent.com/c4pt000/dogecoin-frontend-edit/main/my-doge-deposit.png)
 
 [![Build Status](https://travis-ci.com/dogecoin/dogecoin.svg?branch=master)](https://travis-ci.com/dogecoin/dogecoin)
