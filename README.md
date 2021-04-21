@@ -1,6 +1,6 @@
 # Dogecoin Core [DOGE, Ð]
 
-# 3.5 GB
+# size of synced wallet -> 3.57 GB
 
 
 ![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-loading-splash.png)
