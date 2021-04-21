@@ -44,6 +44,9 @@ yum groupinstall "C Development Tools and Libraries" -y
  opencv-devel-4.5.2-1.fc34.x86_64 cargo boost-devel miniupnpc-devel.x86_64 diffutils -y
  cp -rf /usr/include/opencv4/opencv2 /usr/include/
 
+
+sh autogen.sh
+
 ./configure --prefix=/usr --with-incompatible-bdb
 
 
