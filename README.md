@@ -12,7 +12,9 @@
 
 # requires docker run -it on a fresh pull
 
+```
 docker run -it c4pt/dogesnap-wallet
+```
 
 to mount the blockchain on the host from docker
 
