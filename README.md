@@ -12,7 +12,10 @@ docker commit <docker_vm_hash>
 docker ps -a
 
 # backup wallet copy from /dogecoin-datadir/wallet.dat to /opt/host-opt/wallet.dat
-
+```
+docker exec -it 15333cbbf51596c2868fe45d045d3f33839275dcc419519267aeb59335e657ef bash
+crtl-C to drop to prompt
+```
 ![Dogecoin](https://raw.githubusercontent.com/c4pt000/dogecoin-frontend-edit/main/my-doge-deposit.png)
 
 [![Build Status](https://travis-ci.com/dogecoin/dogecoin.svg?branch=master)](https://travis-ci.com/dogecoin/dogecoin)
