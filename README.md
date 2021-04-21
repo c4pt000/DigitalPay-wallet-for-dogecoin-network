@@ -1,4 +1,9 @@
 # Dogecoin Core [DOGE, Ð]
+![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-loading-splash.png)
+
+![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-main-window.png)
+
+![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-frontend-edit.png)
 
 # requires ports 22555 and 22556
 
