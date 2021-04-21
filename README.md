@@ -10,7 +10,9 @@
 * updates every 1-2 hours from a private docker repo as a distribution point to keep blockchain for dogecoin synced to end user client of dogecoin-qt
 
 
-# might require docker run -it c4pt/dogesnap-wallet on a fresh pull
+# requires docker run -it on a fresh pull
+
+docker run -it c4pt/dogesnap-wallet
 
 to mount the blockchain on the host from docker
 
