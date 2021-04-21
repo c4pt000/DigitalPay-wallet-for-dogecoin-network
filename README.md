@@ -44,6 +44,11 @@ yum groupinstall "C Development Tools and Libraries" -y
 
 ./configure --prefix=/usr --with-incompatible-bdb
 
+
+you might get a warning here
+configure: WARNING: Found Berkeley DB other than 5.1; wallets opened by this build will not be portable!
+due to libdb-cxx being 5.3 
+
 make -j24                              if your system has 24 cores for faster builds
 make -j24 install
 
