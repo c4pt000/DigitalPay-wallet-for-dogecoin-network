@@ -1277,7 +1277,12 @@ libdogecoin_server_a-net.o: net.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/detail/atomic_undef_macros.hpp \
  /usr/include/boost/thread/detail/atomic_redef_macros.hpp ui_interface.h \
  /usr/include/boost/signals2/last_value.hpp utilstrencodings.h \
- /usr/include/c++/11/math.h
+ /usr/include/miniupnpc/miniupnpc.h \
+ /usr/include/miniupnpc/miniupnpc_declspec.h \
+ /usr/include/miniupnpc/igd_desc_parse.h /usr/include/miniupnpc/upnpdev.h \
+ /usr/include/miniupnpc/miniwget.h /usr/include/miniupnpc/upnpcommands.h \
+ /usr/include/miniupnpc/miniupnpctypes.h \
+ /usr/include/miniupnpc/upnperrors.h /usr/include/c++/11/math.h
 /usr/include/stdc-predef.h:
 config/bitcoin-config.h:
 net.h:
@@ -2784,4 +2789,12 @@ scheduler.h:
 ui_interface.h:
 /usr/include/boost/signals2/last_value.hpp:
 utilstrencodings.h:
+/usr/include/miniupnpc/miniupnpc.h:
+/usr/include/miniupnpc/miniupnpc_declspec.h:
+/usr/include/miniupnpc/igd_desc_parse.h:
+/usr/include/miniupnpc/upnpdev.h:
+/usr/include/miniupnpc/miniwget.h:
+/usr/include/miniupnpc/upnpcommands.h:
+/usr/include/miniupnpc/miniupnpctypes.h:
+/usr/include/miniupnpc/upnperrors.h:
 /usr/include/c++/11/math.h:

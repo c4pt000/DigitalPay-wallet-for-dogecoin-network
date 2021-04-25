@@ -2346,7 +2346,7 @@
         <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>

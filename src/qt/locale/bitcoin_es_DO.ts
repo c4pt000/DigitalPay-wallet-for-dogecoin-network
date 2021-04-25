@@ -1123,7 +1123,7 @@
 </translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Núcleo de Dogecoin</translation>
     </message>
     <message>

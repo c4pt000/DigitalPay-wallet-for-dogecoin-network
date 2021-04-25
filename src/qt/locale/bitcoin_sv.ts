@@ -2227,8 +2227,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>DigitalPay</source>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>The %s developers</source>

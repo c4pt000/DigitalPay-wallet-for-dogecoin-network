@@ -1,4 +1,4 @@
-Name "Dogecoin Core (-bit)"
+Name "DigitalPay (-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,23 +6,23 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.14.3
-!define COMPANY "Dogecoin Core project"
+!define COMPANY "DigitalPay project"
 !define URL https://dogecoin.com/
 
 # MUI Symbol Definitions
-!define MUI_ICON "/opt/dogecoin/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/opt/dogecoin/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/opt/dogecoin-SOURCE/dogecoin/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/opt/dogecoin-SOURCE/dogecoin/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/opt/dogecoin/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/opt/dogecoin-SOURCE/dogecoin/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Dogecoin Core"
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "DigitalPay"
 !define MUI_FINISHPAGE_RUN $INSTDIR\dogecoin-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/opt/dogecoin/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/opt/dogecoin-SOURCE/dogecoin/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /opt/dogecoin/dogecoin-${VERSION}-win-setup.exe
+OutFile /opt/dogecoin-SOURCE/dogecoin/dogecoin-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\Dogecoin
 !else
@@ -59,7 +59,7 @@ XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.0
-VIAddVersionKey ProductName "Dogecoin Core"
+VIAddVersionKey ProductName "DigitalPay"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /opt/dogecoin/release/dogecoin-qt
-    File /oname=COPYING.txt /opt/dogecoin/COPYING
-    File /oname=readme.txt /opt/dogecoin/doc/README_windows.txt
+    File /opt/dogecoin-SOURCE/dogecoin/release/dogecoin-qt
+    File /oname=COPYING.txt /opt/dogecoin-SOURCE/dogecoin/COPYING
+    File /oname=readme.txt /opt/dogecoin-SOURCE/dogecoin/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /opt/dogecoin/release/dogecoind
-    File /opt/dogecoin/release/dogecoin-cli
+    File /opt/dogecoin-SOURCE/dogecoin/release/dogecoind
+    File /opt/dogecoin-SOURCE/dogecoin/release/dogecoin-cli
     SetOutPath $INSTDIR\doc
-    File /r /opt/dogecoin/doc\*.*
+    File /r /opt/dogecoin-SOURCE/dogecoin/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd
@@ -92,7 +92,7 @@ Section -post SEC0001
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\dogecoin-qt
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Dogecoin Core (testnet, -bit).lnk" "$INSTDIR\dogecoin-qt" "-testnet" "$INSTDIR\dogecoin-qt" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\DigitalPay (testnet, -bit).lnk" "$INSTDIR\dogecoin-qt" "-testnet" "$INSTDIR\dogecoin-qt" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -136,7 +136,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Dogecoin Core (testnet, -bit).lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\DigitalPay (testnet, -bit).lnk"
     Delete /REBOOTOK "$SMSTARTUP\Bitcoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log

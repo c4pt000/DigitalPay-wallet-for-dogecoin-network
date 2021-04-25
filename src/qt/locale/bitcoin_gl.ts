@@ -1028,7 +1028,7 @@
         <translation>Executar no fondo como un demo e aceptar comandos</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Core de Dogecoin</translation>
     </message>
     <message>

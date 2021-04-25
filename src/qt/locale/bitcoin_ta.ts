@@ -708,7 +708,7 @@
 <context>
     <name>dogecoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Dogecoin மையம்</translation>
     </message>
     <message>

@@ -772,8 +772,8 @@
 </translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>dogecoin core</translation>
+        <source>DigitalPay</source>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>Error loading block database</source>

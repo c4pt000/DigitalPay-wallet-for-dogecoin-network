@@ -948,7 +948,7 @@
 <context>
     <name>dogecoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Dogecoin Kern</translation>
     </message>
     <message>

@@ -604,7 +604,7 @@
         <translation>Opciones:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>nucleo Dogecoin</translation>
     </message>
     <message>

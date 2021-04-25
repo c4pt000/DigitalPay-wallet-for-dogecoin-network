@@ -27,10 +27,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core and Dogecoin Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The Bitcoin Core and DigitalPay developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Core and Dogecoin Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "Bitcoin Core and DigitalPay"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2021
@@ -244,16 +244,16 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the <miniupnpc/miniupnpc.h> header file. */
-/* #undef HAVE_MINIUPNPC_MINIUPNPC_H */
+#define HAVE_MINIUPNPC_MINIUPNPC_H 1
 
 /* Define to 1 if you have the <miniupnpc/miniwget.h> header file. */
-/* #undef HAVE_MINIUPNPC_MINIWGET_H */
+#define HAVE_MINIUPNPC_MINIWGET_H 1
 
 /* Define to 1 if you have the <miniupnpc/upnpcommands.h> header file. */
-/* #undef HAVE_MINIUPNPC_UPNPCOMMANDS_H */
+#define HAVE_MINIUPNPC_UPNPCOMMANDS_H 1
 
 /* Define to 1 if you have the <miniupnpc/upnperrors.h> header file. */
-/* #undef HAVE_MINIUPNPC_UPNPERRORS_H */
+#define HAVE_MINIUPNPC_UPNPERRORS_H 1
 
 /* Define this symbol if you have MSG_NOSIGNAL */
 #define HAVE_MSG_NOSIGNAL 1
@@ -316,10 +316,10 @@
 #define PACKAGE_BUGREPORT "https://github.com/dogecoin/dogecoin/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Dogecoin Core"
+#define PACKAGE_NAME "DigitalPay"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Dogecoin Core 1.14.3"
+#define PACKAGE_STRING "DigitalPay 1.14.3"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "dogecoin"
@@ -360,7 +360,7 @@
 
 /* UPnP support not compiled if undefined, otherwise value (0 or 1) determines
    default state */
-/* #undef USE_UPNP */
+#define USE_UPNP 0
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
    significant byte first (like Motorola and SPARC, unlike Intel). */

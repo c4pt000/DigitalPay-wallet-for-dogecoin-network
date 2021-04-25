@@ -67,7 +67,7 @@
     <name>DogecoinGUI</name>
     <message>
         <source>Dogecoin</source>
-        <translation>Dogecoin Core</translation>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -236,8 +236,8 @@
 <context>
     <name>dogecoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>DigitalPay</source>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>

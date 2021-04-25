@@ -1758,7 +1758,7 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Dogecoini tuumik</translation>
     </message>
     <message>

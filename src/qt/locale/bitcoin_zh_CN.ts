@@ -3013,8 +3013,8 @@
         <translation>无法启动HTTP服务，查看日志获取更多信息</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>DigitalPay</source>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>The %s developers</source>

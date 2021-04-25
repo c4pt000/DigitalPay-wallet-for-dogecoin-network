@@ -784,7 +784,7 @@
         <translation>Opsionet:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Berthama Dogecoin</translation>
     </message>
     <message>

@@ -1,9 +1,9 @@
-Dogecoin Core 0.14.2
+DigitalPay 0.14.2
 =====================
 
 Setup
 ---------------------
-[Dogecoin Core](http://dogecoin.com/) is the reference Dogecoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+[DigitalPay](http://dogecoin.com/) is the reference Dogecoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Bitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
 Running
 ---------------------
@@ -73,6 +73,6 @@ The Dogecoin repo's [root README](/README.md) contains relevant information on t
 License
 ---------------------
 Distributed under the [MIT software license](/COPYING).
-This product includes software developed by the Bitcoin developers for use in [Dogecoin Core](https://www.bitcoin.org/). 
+This product includes software developed by the Bitcoin developers for use in [DigitalPay](https://www.bitcoin.org/). 
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.

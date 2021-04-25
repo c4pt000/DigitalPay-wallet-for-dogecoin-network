@@ -484,7 +484,7 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Craidd Dogecoin</translation>
     </message>
     <message>

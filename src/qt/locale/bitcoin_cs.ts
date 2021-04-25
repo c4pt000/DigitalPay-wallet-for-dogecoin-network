@@ -3058,8 +3058,8 @@
         <translation>Nemohu spustit HTTP server. Detaily viz v debug.log.</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>DigitalPay</source>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>The %s developers</source>

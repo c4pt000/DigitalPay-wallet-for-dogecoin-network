@@ -936,7 +936,7 @@
         <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Dogecoin branduolys</translation>
     </message>
     <message>

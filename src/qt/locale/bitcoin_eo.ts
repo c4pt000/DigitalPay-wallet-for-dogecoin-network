@@ -1338,7 +1338,7 @@
         <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Kerno de Dogemono</translation>
     </message>
     <message>

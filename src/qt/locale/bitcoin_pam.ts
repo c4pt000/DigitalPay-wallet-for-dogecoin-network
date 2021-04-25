@@ -752,7 +752,7 @@
         <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Kapilubluban ning Dogecoin</translation>
     </message>
     <message>

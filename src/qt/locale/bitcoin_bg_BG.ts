@@ -420,7 +420,7 @@
 <context>
     <name>dogecoin-core</name>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Биткойн ядро</translation>
     </message>
     </context>

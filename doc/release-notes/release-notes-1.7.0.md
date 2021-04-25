@@ -1,7 +1,7 @@
-# Dogecoin Core 1.7 Alpha
+# DigitalPay 1.7 Alpha
 =========================
 
-Dogecoin Core 1.7 is a complete re-architecture of Dogecoin, changing from
+DigitalPay 1.7 is a complete re-architecture of Dogecoin, changing from
 using the Litecoin client as its base, to Bitcoin 0.9. It's still Dogecoin,
 with the same Scrypt PoW algorithm, same reward schedule, but there are a 
 lot of changes under the hood.
@@ -21,11 +21,11 @@ First and foremost, please note that downgrading from 1.7 to 1.6 is not trivial.
 1.7 now uses Berkeley DB 5.1 as its default database (in place of 4.8), and as
 such may create database files which are incompatible with previous versions.
 
-Rebranding to Dogecoin Core
+Rebranding to DigitalPay
 ---------------------------
 
 Following in the footsteps of Bitcoin (Core), the Dogecoin reference client
-has been rebranded as "Dogecoin Core". This helps separate its identity
+has been rebranded as "DigitalPay". This helps separate its identity
 from Dogecoin (the network).
 
 dogecoin-cli

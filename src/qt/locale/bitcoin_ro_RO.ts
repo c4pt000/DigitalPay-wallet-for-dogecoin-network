@@ -1594,7 +1594,7 @@
         <translation>Rulează în fundal ca un demon şi acceptă comenzi</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
+        <source>DigitalPay</source>
         <translation>Nucleul Dogecoin</translation>
     </message>
     <message>

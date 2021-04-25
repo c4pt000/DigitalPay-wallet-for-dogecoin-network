@@ -1,9 +1,9 @@
-# Dogecoin Core 1.8
+# DigitalPay 1.8
 ===================
 
-Dogecoin Core 1.8 introduces AuxPoW from block 371,337. AuxPoW is a technology
+DigitalPay 1.8 introduces AuxPoW from block 371,337. AuxPoW is a technology
 which enables miners to submit work done while mining other coins, as work
-on the Dogecoin block chain. Dogecoin Core 1.8 also enables payment protocol
+on the Dogecoin block chain. DigitalPay 1.8 also enables payment protocol
 support for Dogecoin (note that Dogecoin's implementation of payment protocol is
 not compatible with Bitcoin's protocol). Lastly, 1.8  also includes all fixes
 from Bitcoin Core 0.9.2, whose release notes you can read at
@@ -58,7 +58,7 @@ compliance with BIP0034.
 
 ## Payment Protocol
 
-Dogecoin Core 1.8 adds payment protocol support, which is used to streamline payments
+DigitalPay 1.8 adds payment protocol support, which is used to streamline payments
 being made to merchants.
 
 This protocol is defined in DIP0070-DIP0072, based on the BIP standards with the same

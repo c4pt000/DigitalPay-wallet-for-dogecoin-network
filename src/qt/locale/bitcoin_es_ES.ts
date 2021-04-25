@@ -2925,8 +2925,8 @@
         <translation>No se ha podido comenzar el servidor HTTP. Ver debug log para detalles.</translation>
     </message>
     <message>
-        <source>Dogecoin Core</source>
-        <translation>Dogecoin Core</translation>
+        <source>DigitalPay</source>
+        <translation>DigitalPay</translation>
     </message>
     <message>
         <source>The %s developers</source>

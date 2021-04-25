@@ -25,7 +25,7 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build Dogecoin Core
+Build DigitalPay
 ------------------------
 
 1. Clone the dogecoin source code and cd into `dogecoin`
@@ -54,7 +54,7 @@ Build Dogecoin Core
 Running
 -------
 
-Dogecoin Core is now available at `./src/dogecoind`
+DigitalPay is now available at `./src/dogecoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
