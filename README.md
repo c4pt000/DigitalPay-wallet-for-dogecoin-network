@@ -13,11 +13,11 @@ https://github.com/c4pt000/electrum-wallet-for-dogecoin-WIP
 # size of synced wallet -> 3.57 GB
 
 
-![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-loading-splash.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-splash.png)
 
-![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-main-window.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-about.png)
 
-![s1](https://raw.githubusercontent.com/c4pt000/dogecoin/main/dogecoin-frontend-edit.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-main-gui.png)
 
 # requires ports 22555 and 22556
 
