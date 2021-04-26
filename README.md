@@ -1,3 +1,8 @@
+
+# to find this repo by QR code
+![s1](https://raw.githubusercontent.com/c4pt000/docker-dogecoin-autosync/main/find-repo-by-camera-QR.png)
+
+
 # seperation for blockchain data and digitalpay-client
 
 
