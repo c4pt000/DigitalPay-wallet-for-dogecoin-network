@@ -5,6 +5,8 @@ android app in progress in current review
 
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/QR-fix.png)
 
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/android-app.receive-by-QR.png)
+
 for electrum as a server node (WIP template only)
 
 https://github.com/c4pt000/electrum-wallet-for-dogecoin-WIP
