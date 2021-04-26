@@ -36,8 +36,26 @@ android app in progress in current review
 
 for electrum as a server node (WIP template only)
 
-https://github.com/c4pt000/electrum-wallet-for-dogecoin-WIP
 
+
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+![s1](https://github.com/c4pt000/docker-DigitalPay-autosync/blob/main/Screenshot_20210426-040519.png)
+
+<br>
+<br>
+<br>
+<br>
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/Screenshot_20210426-040526.png)
+<br>
+<br>
+<br>
+<br>
 
 # DigitalPay [DOGE, Ð]
 
