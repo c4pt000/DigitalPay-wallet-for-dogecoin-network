@@ -1,3 +1,7 @@
+for QR fix see
+https://github.com/c4pt000/docker-DigitalPay-autosync/blob/main/src/qt/guiutil.cpp
+
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/QR-fix.png)
 
 for electrum as a server node (WIP template only)
 
