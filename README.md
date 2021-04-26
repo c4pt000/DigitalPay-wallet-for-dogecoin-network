@@ -47,12 +47,26 @@ for QR fix see
 https://github.com/c4pt000/docker-DigitalPay-autosync/blob/main/src/qt/guiutil.cpp
 
 android app in progress in current review
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/digitalpay-android.png)
+
+
+<br>
+<br>
+<br>
+<br>
 
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/QR-fix.png)
+<br>
+<br>
 
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/android-app.receive-by-QR.png)
+<br>
+<br>
+<br>
 
 for electrum as a server node (WIP template only)
+<br>
+<br>
 
 
 
