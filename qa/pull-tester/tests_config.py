@@ -3,8 +3,8 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-SRCDIR="/opt/dogecoin-SOURCE/dogecoin"
-BUILDDIR="/opt/dogecoin-SOURCE/dogecoin"
+SRCDIR="/opt/dogecoin-droid/dogecoin"
+BUILDDIR="/opt/dogecoin-droid/dogecoin"
 EXEEXT=""
 
 # These will turn into comments if they were disabled when configuring.

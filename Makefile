@@ -234,8 +234,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/src/config/bitcoin-config.h.in \
 	$(top_srcdir)/src/test/buildenv.py.in COPYING \
 	build-aux/compile build-aux/config.guess build-aux/config.sub \
-	build-aux/depcomp build-aux/install-sh build-aux/ltmain.sh \
-	build-aux/missing
+	build-aux/install-sh build-aux/ltmain.sh build-aux/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -277,13 +276,13 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /opt/dogecoin-SOURCE/dogecoin/build-aux/missing aclocal-1.16
+ACLOCAL = ${SHELL} /opt/dogecoin-droid/dogecoin/build-aux/missing aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = /usr/bin/ar
-AUTOCONF = ${SHELL} /opt/dogecoin-SOURCE/dogecoin/build-aux/missing autoconf
-AUTOHEADER = ${SHELL} /opt/dogecoin-SOURCE/dogecoin/build-aux/missing autoheader
-AUTOMAKE = ${SHELL} /opt/dogecoin-SOURCE/dogecoin/build-aux/missing automake-1.16
+AUTOCONF = ${SHELL} /opt/dogecoin-droid/dogecoin/build-aux/missing autoconf
+AUTOHEADER = ${SHELL} /opt/dogecoin-droid/dogecoin/build-aux/missing autoheader
+AUTOMAKE = ${SHELL} /opt/dogecoin-droid/dogecoin/build-aux/missing automake-1.16
 AWK = gawk
 BDB_CPPFLAGS =  -I/usr/include/libdb/
 BDB_LIBS = -ldb_cxx
@@ -376,7 +375,7 @@ LTLIBOBJS =
 LT_SYS_LIBRARY_PATH = 
 LUPDATE = /usr/lib64/qt5/bin/lupdate-qt5
 MAINT = 
-MAKEINFO = ${SHELL} /opt/dogecoin-SOURCE/dogecoin/build-aux/missing makeinfo
+MAKEINFO = ${SHELL} /opt/dogecoin-droid/dogecoin/build-aux/missing makeinfo
 MAKENSIS = 
 MANIFEST_TOOL = :
 MINIUPNPC_CPPFLAGS = 
@@ -463,10 +462,10 @@ X11XCB_LIBS =
 XGETTEXT = 
 ZMQ_CFLAGS = 
 ZMQ_LIBS = -lzmq 
-abs_builddir = /opt/dogecoin-SOURCE/dogecoin
-abs_srcdir = /opt/dogecoin-SOURCE/dogecoin
-abs_top_builddir = /opt/dogecoin-SOURCE/dogecoin
-abs_top_srcdir = /opt/dogecoin-SOURCE/dogecoin
+abs_builddir = /opt/dogecoin-droid/dogecoin
+abs_srcdir = /opt/dogecoin-droid/dogecoin
+abs_top_builddir = /opt/dogecoin-droid/dogecoin
+abs_top_srcdir = /opt/dogecoin-droid/dogecoin
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -498,7 +497,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /opt/dogecoin-SOURCE/dogecoin/build-aux/install-sh
+install_sh = ${SHELL} /opt/dogecoin-droid/dogecoin/build-aux/install-sh
 libdir = ${exec_prefix}/lib64
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
