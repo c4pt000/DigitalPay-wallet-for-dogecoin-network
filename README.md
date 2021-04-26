@@ -60,6 +60,14 @@ for electrum as a server node (WIP template only)
 # DigitalPay [DOGE, Ð]
 
 # size of synced wallet -> 3.57 GB
+```
+du -h /opt/blockchain/
+600M	/opt/blockchain/blocks/index
+2.8G	/opt/blockchain/blocks
+4.0K	/opt/blockchain/database
+648M	/opt/blockchain/chainstate
+3.4G	/opt/blockchain/
+```
 
 
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-splash.png)
