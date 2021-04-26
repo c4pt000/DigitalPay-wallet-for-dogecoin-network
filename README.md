@@ -3,7 +3,15 @@
 
 
 
+takes 30 minutes on a first run :
 
+# for a first run
+# first-run
+
+```
+mkdir /opt/blockchain
+docker run -it -d --net=host -v /opt/blockchain:/opt/blockchain c4pt/digitalpay-blockchain first-run &
+```
 sync every 30 minutes
 see /usr/bin/digitalpay-daemon
 
