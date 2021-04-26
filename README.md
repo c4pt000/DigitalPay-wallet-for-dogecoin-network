@@ -6,7 +6,6 @@
 takes 30 minutes on a first run :
 
 # for a first run
-# first-run
 
 ```
 mkdir /opt/blockchain
