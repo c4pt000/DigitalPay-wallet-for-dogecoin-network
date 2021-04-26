@@ -11,14 +11,22 @@ takes 30 minutes on a first run :
 mkdir /opt/blockchain
 docker run -it -d --net=host -v /opt/blockchain:/opt/blockchain c4pt/digitalpay-blockchain first-run &
 ```
-sync every 30 minutes
-see /usr/bin/digitalpay-daemon
+
+cat /usr/bin/digitalpay-daemon
 
 ```
 docker run -it -d  -v /opt/blockchain:/opt/blockchain c4pt/digitalpay-blockchain digitalpay-daemon &
+```
 
-check with ps ax | grep dogecoind
 
+sync every 30 minutes
+to run a directory sync from digitalpay-blockchain to the mounted host direcotry /opt/blockchain every 30 minutes
+
+```
+docker run -it -d  -v /opt/blockchain:/opt/blockchain c4pt/digitalpay-blockchain digitalpay-sync &
+```
+
+```
 
 docker run -it -d --net=host -v  /opt/blockchain:/opt/blockchain  -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/digitalpay-wallet 
 
