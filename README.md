@@ -15,10 +15,15 @@ sync every 30 minutes
 see /usr/bin/digitalpay-daemon
 
 ```
-docker run -it -d --net=host -v /opt/blockchain:/opt/blockchain c4pt/digitalpay-blockchain digitalpay-daemon &
+docker run -it -d  -v /opt/blockchain:/opt/blockchain c4pt/digitalpay-blockchain digitalpay-daemon &
+
+check with ps ax | grep dogecoind
+
 
 docker run -it -d --net=host -v  /opt/blockchain:/opt/blockchain  -v /sys/fs/cgroup:/sys/fs/cgroup:ro -e "DISPLAY=${DISPLAY:-:0.0}" -v /tmp/.X11-unix:/tmp/.X11-unix -v /root/.Xauthority:/root/.Xauthority c4pt/digitalpay-wallet 
+
 docker exec -it <docker_vm_hash> bash
+
 dogecoin-qt &
 
 
