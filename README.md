@@ -51,7 +51,9 @@ for electrum as a server node (WIP template only)
 <br>
 <br>
 <br>
+
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/Screenshot_20210426-040526.png)
+
 <br>
 <br>
 <br>
