@@ -9,7 +9,7 @@ android
 
 
 # to find this repo by QR code see also apple app store and google play suggestion 
-https://github.com/c4pt000/Google-Play_Store_AND_Apple_App_Store_QR-codes
+ * https://github.com/c4pt000/Google-Play_Store_AND_Apple_App_Store_QR-codes
 
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/find-repo-by-camera-QR.png)
 
