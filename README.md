@@ -1,7 +1,12 @@
 # android
 * https://play.google.com/store/apps/details?id=us.digitalpay.wallet
 
-![s1]
+android
+
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/digitalpay-android-QR.png)
+
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/QR-app-store-install.png)
+
 
 # to find this repo by QR code
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/find-repo-by-camera-QR.png)
