@@ -1,5 +1,5 @@
 # android
-* https://play.google.com/store/apps/details?id=us.digitalpay.wallet
+# https://play.google.com/store/apps/details?id=us.digitalpay.wallet
 
 android
 
