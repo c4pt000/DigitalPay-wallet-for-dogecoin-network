@@ -4,6 +4,9 @@
 
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/checkmark-synced.png)
 
+* recommended send
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/recommend-send-1.00-DOGE.png)
+
 
 
 still a WIP** for other clients
