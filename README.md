@@ -1,7 +1,10 @@
 
 # linux 
 # https://github.com/c4pt000/docker-DigitalPay-autosync/releases/download/digitalpay/digitalpay-current-QRcodefix.tar.gz
+
+
 ```
+(you add the blockchain data and dogecoin.conf raw binary)
 tar -xvf digitalpay-current-QRcodefix.tar.gz
 cd dogecoin
 ./src/qt/dogecoin-qt
