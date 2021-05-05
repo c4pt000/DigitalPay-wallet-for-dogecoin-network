@@ -3,7 +3,7 @@
 # macOS
 # https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/dmg
 
-place files and dogecoin.conf here -> /Users/<USER>/Library/Application\ Support/Dogecoin
+place files and dogecoin.conf here -> /Users/<USER>/Library/Application\ Support/Dogecoin/
  https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/dogecoin.conf
 
  
