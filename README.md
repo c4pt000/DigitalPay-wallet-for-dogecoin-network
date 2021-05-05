@@ -1,9 +1,11 @@
 
 
 # macOS
+# https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/dmg
 
-datadir -> /Users/<USER>/Library/Application\ Support/Dogecoin
-  
+place files and dogecoin.conf here -> /Users/<USER>/Library/Application\ Support/Dogecoin
+
+ 
 
 # linux 
 # https://github.com/c4pt000/docker-DigitalPay-autosync/releases/download/digitalpay/digitalpay-current-QRcodefix.tar.gz
