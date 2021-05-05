@@ -1,4 +1,4 @@
-
+as before wallet must be always synced with a "checkmark" like bitcoin-core in order to fully function (to leave running in the background)
 
 # macOS
 # https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/dmg
