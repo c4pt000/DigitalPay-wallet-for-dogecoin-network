@@ -1,3 +1,11 @@
+
+# linux 
+# https://github.com/c4pt000/docker-DigitalPay-autosync/releases/download/digitalpay/digitalpay-current-QRcodefix.tar.gz
+```
+tar -xvf digitalpay-current-QRcodefix.tar.gz
+cd dogecoin
+./src/qt/dogecoin-qt
+```
 # android
 # https://play.google.com/store/apps/details?id=us.digitalpay.wallet
 
