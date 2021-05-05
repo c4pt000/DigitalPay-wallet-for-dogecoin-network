@@ -1,4 +1,7 @@
-as before wallet must be always synced with a "checkmark" like bitcoin-core in order to fully function (to leave running in the background)
+* as before wallet must be always synced with a "checkmark" like bitcoin-core in order to fully function (to leave running in the background)
+* the sync goes by sometimes in a burst where 20 hours might take 20 minutes to fully sync or 30 days might take 45 minutes same as with bitcoin-qt from bitcoin-core (as long as the ports are blocked on the LAN side or WAN side of the firewall)
+
+
 ![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/checkmark-synced.png)
 # macOS
 # https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/dmg
