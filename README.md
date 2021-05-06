@@ -1,3 +1,6 @@
+current blockchain snapshot 05-05-2021
+https://drive.google.com/file/d/1ZatTBK8WaxaWFcGUCGTveOwOuGXfTB-s/view?usp=sharing
+
 * as before wallet must be always synced with a "checkmark" like bitcoin-core in order to fully function (to leave running in the background)
 * the sync goes by sometimes in a burst where 20 hours might take 20 minutes to fully sync or 30 days might take 45 minutes same as with bitcoin-qt from bitcoin-core (as long as the ports aren't blocked on the LAN side or WAN side of the firewall)
 
