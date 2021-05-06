@@ -1,4 +1,6 @@
-current blockchain snapshot 05-05-2021
+* current blockchain snapshot 05-05-2021
+# must have prune=2200 in dogecoin.conf or wallet will force reindex to download entire blockchain from block height 0
+
 https://drive.google.com/file/d/1ZatTBK8WaxaWFcGUCGTveOwOuGXfTB-s/view?usp=sharing
 
 * as before wallet must be always synced with a "checkmark" like bitcoin-core in order to fully function (to leave running in the background)
