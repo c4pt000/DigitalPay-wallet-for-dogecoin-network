@@ -19,8 +19,10 @@ https://drive.google.com/file/d/1ZatTBK8WaxaWFcGUCGTveOwOuGXfTB-s/view?usp=shari
 
 
 
-still a WIP** for other clients
+* still a WIP** for other clients
 
+# widnows (unfinished WIP**)
+# https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/windows
 
 # macOS
 # https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/dmg
