@@ -289,6 +289,10 @@ make -j24 install
 
 
 ```
+macos builds
+```
+brew install berkeley-db@4 sqlite qt@5 qrencode miniupnpc libnatpmp zeromq python librsvg
+```
 
 ![Dogecoin](https://raw.githubusercontent.com/c4pt000/dogecoin-frontend-edit/main/my-doge-deposit.png)
 
