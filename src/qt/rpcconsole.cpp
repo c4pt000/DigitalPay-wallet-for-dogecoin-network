@@ -26,7 +26,7 @@
 #include <univalue.h>
 
 #ifdef ENABLE_WALLET
-#include <db_cxx.h>
+#include "db_cxx.h"
 #endif
 
 #include <QKeyEvent>
