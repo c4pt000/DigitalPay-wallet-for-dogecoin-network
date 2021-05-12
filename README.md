@@ -291,15 +291,11 @@ make -j24 install
 ```
 macos builds
 ```
-brew install sqlite qt@5 qrencode miniupnpc libnatpmp zeromq python librsvg
+brew install automake berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 libevent\n
+ brew link berkeley-db --overwrite --force\n
+   ./configure --with-incompatible-bdb
+make -j24 deploy
 
-wget https://src.fedoraproject.org/lookaside/pkgs/db4/db-4.8.30.tar.gz/f80022099c5742cd179343556179aa8c/db-4.8.30.tar.gz
-tar -xvf db-4.8.30.tar.gz
-cd db-4.8.30
-cd build_unix
-../dist/configure --enable-cxx --disable-mutexsupport
-make -j24
-sudo make -j24 install
 
 ```
 
