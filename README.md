@@ -103,7 +103,7 @@ for QR fix see
 https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/blob/main/src/qt/guiutil.cpp
 
 android app in progress in current review
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/digitalpay-android.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/digitalpay-android.png)
 
 
 <br>
@@ -111,11 +111,11 @@ android app in progress in current review
 <br>
 <br>
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/QR-fix.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/QR-fix.png)
 <br>
 <br>
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/android-app.receive-by-QR.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/android-app.receive-by-QR.png)
 <br>
 <br>
 <br>
@@ -133,14 +133,14 @@ for electrum as a server node (WIP template only)
 <br>
 <br>
 
-![s1](https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/blob/main/Screenshot_20210426-040519.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/Screenshot_20210426-040519.png)
 
 <br>
 <br>
 <br>
 <br>
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/Screenshot_20210426-040526.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/Screenshot_20210426-040526.png)
 
 <br>
 <br>
@@ -160,11 +160,11 @@ du -h /opt/blockchain/
 ```
 
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-splash.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-splash.png)
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-about.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-about.png)
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-main-gui.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-main-gui.png)
 
 # requires ports 22555 and 22556
 
