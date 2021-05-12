@@ -297,6 +297,7 @@ brew install git
 git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
 cd /opt
 cd DigitalPay-wallet-for-dogecoin-network
+make -j24 clean
 
 brew install automake openssl berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 \
 libevent librsvg python zeromq libnatpmp qrencode sqlite imagemagick libtiff
