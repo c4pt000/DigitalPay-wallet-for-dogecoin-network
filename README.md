@@ -48,15 +48,15 @@ cd dogecoin
 
 android
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/digitalpay-android-QR.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/digitalpay-android-QR.png)
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/QR-app-store-install.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/QR-app-store-install.png)
 
 
 # to find this repo by QR code see also apple app store and google play suggestion 
  * https://github.com/c4pt000/Google-Play_Store_AND_Apple_App_Store_QR-codes
 
-![s1](https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/find-repo-by-camera-QR.png)
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/find-repo-by-camera-QR.png)
 
 
 # seperation for blockchain data and digitalpay-client
