@@ -120,7 +120,6 @@ android app in progress in current review
 <br>
 <br>
 
-for electrum as a server node (WIP template only)
 <br>
 <br>
 
