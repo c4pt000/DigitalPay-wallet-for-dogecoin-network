@@ -320,3 +320,4 @@ make -j24 deploy              # to build the .app and .dmg for macOS
 
 
 ```
+![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/my-doge-deposit.png)
