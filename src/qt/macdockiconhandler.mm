@@ -30,6 +30,9 @@ bool dockClickHandler(id self,SEL _cmd,...) {
     return false;
 }
 
+
+/* removed for bigSur dmg make -j24 deploy compile
+
 void setupDockClickHandler() {
     Class cls = objc_getClass("NSApplication");
     id appInst = objc_msgSend((id)cls, sel_registerName("sharedApplication"));
@@ -44,7 +47,7 @@ void setupDockClickHandler() {
             class_addMethod(delClass, shouldHandle, (IMP)dockClickHandler,"B@:");
     }
 }
-
+*/
 
 MacDockIconHandler::MacDockIconHandler() : QObject()
 {
