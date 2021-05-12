@@ -291,7 +291,7 @@ make -j24 install
 
 
 ```
-macos builds requires Xcode
+# build for macos as a dmg (requires Xcode)
 ```
 git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
 cd /opt
