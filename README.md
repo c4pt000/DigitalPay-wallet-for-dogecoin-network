@@ -315,7 +315,9 @@ sh autogen.sh
 
 
 ./configure --with-incompatible-bdb
-make -j24 deploy              # set 24 if you have 24 cores to build with for concurrency_level with make
+make -j24                     # to make the actual binary with 24 cores
+make -j24 deploy              # to build the .app and .dmg for macOS
+
 
 
 ```
