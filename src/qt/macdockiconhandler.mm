@@ -53,7 +53,7 @@ MacDockIconHandler::MacDockIconHandler() : QObject()
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 
-    setupDockClickHandler();
+//   setupDockClickHandler();   objc_msgSend breaks removed for bigSur
     this->m_dummyWidget = new QWidget();
     this->m_dockMenu = new QMenu(this->m_dummyWidget);
     this->setMainWindow(NULL);
