@@ -10,11 +10,11 @@ SetCompressor /SOLID lzma
 !define URL https://dogecoin.com/
 
 # MUI Symbol Definitions
-!define MUI_ICON "/opt/dogecoin-droid/dogecoin/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/opt/dogecoin-droid/dogecoin/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/opt/dogecoin-droid/dogecoin/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,7 +22,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "DigitalPay"
 !define MUI_FINISHPAGE_RUN $INSTDIR\dogecoin-qt
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/opt/dogecoin-droid/dogecoin/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /opt/dogecoin-droid/dogecoin/dogecoin-${VERSION}-win-setup.exe
+OutFile /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/dogecoin-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\Dogecoin
 !else
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /opt/dogecoin-droid/dogecoin/release/dogecoin-qt
-    File /oname=COPYING.txt /opt/dogecoin-droid/dogecoin/COPYING
-    File /oname=readme.txt /opt/dogecoin-droid/dogecoin/doc/README_windows.txt
+    File /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/release/dogecoin-qt
+    File /oname=COPYING.txt /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/COPYING
+    File /oname=readme.txt /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /opt/dogecoin-droid/dogecoin/release/dogecoind
-    File /opt/dogecoin-droid/dogecoin/release/dogecoin-cli
+    File /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/release/dogecoind
+    File /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/release/dogecoin-cli
     SetOutPath $INSTDIR\doc
-    File /r /opt/dogecoin-droid/dogecoin/doc\*.*
+    File /r /Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd

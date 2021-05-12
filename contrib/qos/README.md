@@ -1,5 +1,3 @@
-### QoS (Quality of service) ###
-
-This is a Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Dogecoin network. It limits outbound TCP traffic with a source or destination port of 22556, but not if the destination IP is within a LAN.
-
-This means one can have an always-on dogecoind instance running, and another local dogecoind/dogecoin-qt instance which connects to this node and receives blocks from it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:91a9f6cf12894815aa951f31b8027ef5be5f1db489d45b2134880398a6bd622d
+size 449

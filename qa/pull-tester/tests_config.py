@@ -3,8 +3,8 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-SRCDIR="/opt/dogecoin-droid/dogecoin"
-BUILDDIR="/opt/dogecoin-droid/dogecoin"
+SRCDIR="/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network"
+BUILDDIR="/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network"
 EXEEXT=""
 
 # These will turn into comments if they were disabled when configuring.

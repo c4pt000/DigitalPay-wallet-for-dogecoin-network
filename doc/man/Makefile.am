@@ -1,13 +1,3 @@
-dist_man1_MANS=
-
-if BUILD_BITCOIND
-  dist_man1_MANS+=dogecoind.1
-endif
-
-if ENABLE_QT
-  dist_man1_MANS+=dogecoin-qt.1
-endif
-
-if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=dogecoin-cli.1 dogecoin-tx.1
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:054affb538a1191582c31e40a23f4ef25a4fba850e2b607ea25abc1525a116f6
+size 200

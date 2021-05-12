@@ -1,15 +1,3 @@
-### MacDeploy ###
-
-For Snow Leopard (which uses [Python 2.6](http://www.python.org/download/releases/2.6/)), you will need the param_parser package:
-	
-	sudo easy_install argparse
-
-This script should not be run manually, instead, after building as usual:
-
-	make deploy
-
-During the process, the disk image window will pop up briefly where the fancy
-settings are applied. This is normal, please do not interfere.
-
-When finished, it will produce `Dogecoin-Core.dmg`.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:583b9e9ff57c387cfbc80076400dc4ad79dfed88083051078dd9281c3212a6c7
+size 464
