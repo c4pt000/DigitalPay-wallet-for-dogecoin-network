@@ -312,6 +312,7 @@ cd DigitalPay-wallet-for-dogecoin-network
 pip3 install ds_store mac_alias
 sh autogen.sh
 
+
 ./configure --with-incompatible-bdb
 make -j24 deploy              # set 24 if you have 24 cores to build with for concurrency_level with make
 
