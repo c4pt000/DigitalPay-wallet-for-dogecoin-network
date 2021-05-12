@@ -7,10 +7,7 @@
 #include "config/bitcoin-config.h"
 #endif
 
-#include <opencv4/opencv2/core.hpp>
-#include <opencv4/opencv2/imgcodecs.hpp>
-#include <opencv4/opencv2/highgui.hpp>
-#include <opencv4/opencv2/core/cvdef.h>
+
 #include <iostream>
 
 #include "init.h"
@@ -513,7 +510,6 @@ std::string HelpMessage(HelpMessageMode mode)
     return strUsage;
 }
 
-using namespace cv;
 /*
 int display_image()
 {
