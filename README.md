@@ -292,10 +292,17 @@ make -j24 install
 macos builds
 ```
 git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
+cd /opt
 cd DigitalPay-wallet-for-dogecoin-network
 
-brew install automake berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 libevent librsvg python zeromq libnatpmp qrencode sqlite
+brew install automake openssl berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 libevent librsvg python zeromq libnatpmp qrencode sqlite
  brew link berkeley-db --overwrite --force
+ 
+cd /usr/local/include 
+ln -s ../opt/openssl/include/openssl .
+
+cd /opt
+cd DigitalPay-wallet-for-dogecoin-network
 
 pip3 install ds_store mac_alias
 sh autogen.sh
