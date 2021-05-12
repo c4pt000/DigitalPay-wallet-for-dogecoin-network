@@ -31,7 +31,7 @@ bool dockClickHandler(id self,SEL _cmd,...) {
 }
 
 
-/* removed for bigSur dmg make -j24 deploy compile
+    /* removed for bigSur dmg make -j24 deploy compile
 
 void setupDockClickHandler() {
     Class cls = objc_getClass("NSApplication");
