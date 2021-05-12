@@ -291,9 +291,16 @@ make -j24 install
 ```
 macos builds
 ```
-brew install automake berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 libevent\n
- brew link berkeley-db --overwrite --force\n
-   ./configure --with-incompatible-bdb
+git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
+cd DigitalPay-wallet-for-dogecoin-network
+
+brew install automake berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 libevent librsvg python zeromq libnatpmp qrencode sqlite
+ brew link berkeley-db --overwrite --force
+
+pip3 install ds_store mac_alias
+sh autogen.sh
+
+./configure --with-incompatible-bdb
 make -j24 deploy
 
 
