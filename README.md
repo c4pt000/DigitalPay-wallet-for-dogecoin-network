@@ -294,7 +294,7 @@ make -j24 install
 ```
 brew install git
 git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
-cd /opt
+cd ~/Desktop
 cd DigitalPay-wallet-for-dogecoin-network
 make -j24 clean
 
@@ -306,7 +306,7 @@ brew link berkeley-db --overwrite --force
 cd /usr/local/include 
 ln -s ../opt/openssl/include/openssl .
 
-cd /opt
+~/Desktop
 cd DigitalPay-wallet-for-dogecoin-network
 
 pip3 install ds_store mac_alias
