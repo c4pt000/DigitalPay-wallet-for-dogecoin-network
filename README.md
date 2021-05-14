@@ -306,7 +306,7 @@ brew link berkeley-db --overwrite --force
 cd /usr/local/include 
 ln -s ../opt/openssl/include/openssl .
 
-~/Desktop
+cd ~/Desktop
 cd DigitalPay-wallet-for-dogecoin-network
 
 pip3 install ds_store mac_alias
