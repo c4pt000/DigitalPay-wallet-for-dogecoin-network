@@ -262,12 +262,14 @@ docker commit <docker_vm_hash>
 
 # source build (fedora 34)
 ```
-
  yum groupinstall "C Development Tools and Libraries" -y
+ 
  yum install git-core libdb-cxx-devel libdb-cxx openssl-devel libevent-devel java-11-openjdk-devel cppzmq-devel \
- qrencode-devel qt5-qtbase-devel.x86_64 qt5-linguist-5.15.2-5.fc34.x86_64 protobuf-devel opencv-devel.x86_64 \
- opencv-devel-4.5.2-1.fc34.x86_64 cargo boost* boost-devel miniupnpc-devel.x86_64 diffutils qt-devel qt4-devel -y
+ qrencode-devel qt5-qtbase-devel.x86_64 qt5-linguist-5.15.2-5.fc34.x86_64 protobuf-devel \
+ cargo boost* boost-devel miniupnpc-devel.x86_64 diffutils qt-devel qt4-devel -y
 
+
+ 
 cp -rf /usr/include/opencv4/opencv2 /usr/include/
 
 cd /opt
