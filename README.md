@@ -1,4 +1,13 @@
-# must have prune=2200 in dogecoin.conf or wallet will force reindex to download entire blockchain from block height 0
+```
+sh autogen.sh 
+./configure --prefix=/usr --with-incompatible-bdb
+make -j24
+make -j24 install
+checkinstall --install=no --exclude=/sys/fs/selinux
+alien --scripts --to-rpm *.deb 
+```
+ 
+ # must have prune=2200 in dogecoin.conf or wallet will force reindex to download entire blockchain from block height 0
 * current blockchain snapshot 05-05-2021
 https://drive.google.com/file/d/1ZatTBK8WaxaWFcGUCGTveOwOuGXfTB-s/view?usp=sharing
 
