@@ -16,7 +16,7 @@ wget https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/releases/
 ```
 yum install digitalpay-wallet-1.1.4.x86_64.rpm -y
 ```
- 
+ https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/releases
  
  
  
