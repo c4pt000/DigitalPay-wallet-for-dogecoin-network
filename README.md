@@ -1,4 +1,6 @@
 ```
+git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
+cd DigitalPay-wallet-for-dogecoin-network
 sh autogen.sh 
 ./configure --prefix=/usr --with-incompatible-bdb
 make -j24
