@@ -1124,7 +1124,8 @@ test/test_dogecoin_fuzzy-test_bitcoin_fuzzy.o: \
  alert.h amount.h bloom.h limitedmap.h streams.h \
  support/allocators/zeroafterfree.h support/cleanse.h threadinterrupt.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h protocol.h streams.h undo.h \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h protocol.h streams.h undo.h \
  version.h pubkey.h
 /usr/include/stdc-predef.h:
 config/bitcoin-config.h:
@@ -2471,6 +2472,7 @@ threadinterrupt.h:
 /usr/include/c++/11/condition_variable:
 /usr/include/c++/11/thread:
 /usr/include/c++/11/bits/std_thread.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 protocol.h:
 streams.h:
 undo.h:

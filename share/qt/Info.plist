@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>DigitalPay-Qt</string>
+  <string>Dogecoin-Qt</string>
   
   <key>CFBundleName</key>
-  <string>DigitalPay-Qt</string>
+  <string>Dogecoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>com.dogecoin.DigitalPay-Qt</string>
+  <string>com.dogecoin.Dogecoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>

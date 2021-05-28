@@ -7,7 +7,6 @@
 #include "config/bitcoin-config.h"
 #endif
 
-
 #include <iostream>
 
 #include "init.h"

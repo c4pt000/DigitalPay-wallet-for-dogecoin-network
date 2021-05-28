@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e579d65cff16b416ad27e6fbecb54af242c76c214865096dd8de4aab77802258
-size 345
+These patches are to allow bdb-5.1.29 to compile using clang / c++11 under later MacOSX versions (Sierra+).
+These patches must be applied to the bdb-5.1.29 source from Oracle, and then compiled, for the Mac client to build.
+
+Note some of these exist in bdb.mk but we don't want to use the -stdlib=libstd++ flag that's indicated in there on OSX.

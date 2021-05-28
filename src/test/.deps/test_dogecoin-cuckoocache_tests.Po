@@ -1542,7 +1542,8 @@ test/test_dogecoin-cuckoocache_tests.o: test/cuckoocache_tests.cpp \
  /usr/include/boost/thread/executors/generic_executor_ref.hpp \
  /usr/include/boost/thread/detail/atomic_undef_macros.hpp \
  /usr/include/boost/thread/detail/atomic_redef_macros.hpp random.h \
- /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h
 /usr/include/stdc-predef.h:
 /usr/include/boost/test/unit_test.hpp:
 /usr/include/boost/test/test_tools.hpp:
@@ -3327,3 +3328,4 @@ random.h:
 random.h:
 /usr/include/c++/11/thread:
 /usr/include/c++/11/bits/std_thread.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:

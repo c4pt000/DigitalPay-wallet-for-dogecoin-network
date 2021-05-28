@@ -1,12 +1,10 @@
-* source adjusted to allow dmg building as before
-
 # must have prune=2200 in dogecoin.conf or wallet will force reindex to download entire blockchain from block height 0
 * current blockchain snapshot 05-05-2021
 https://drive.google.com/file/d/1ZatTBK8WaxaWFcGUCGTveOwOuGXfTB-s/view?usp=sharing
 
 
 
-  
+
 
 
 
@@ -14,27 +12,25 @@ https://drive.google.com/file/d/1ZatTBK8WaxaWFcGUCGTveOwOuGXfTB-s/view?usp=shari
 * the sync goes by sometimes in a burst where 20 hours might take 20 minutes to fully sync or 30 days might take 45 minutes same as with bitcoin-qt from bitcoin-core (as long as the ports aren't blocked on the LAN side or WAN side of the firewall)
 
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/checkmark-synced.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/checkmark-synced.png)
 
 * recommended send
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/recommend-send-1.00-DOGE.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/recommend-send-1.00-DOGE.png)
 
 
 
-* still a WIP** for other clients
+still a WIP** for other clients
 
-# widnows (unfinished WIP**)
-# https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/releases/tag/windows
 
 # macOS
-# https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/releases/tag/dmg
+# https://github.com/c4pt000/docker-DigitalPay-autosync/releases/tag/dmg
 
 place files and dogecoin.conf here -> /Users/<USER>/Library/Application\ Support/Dogecoin/
- https://raw.githubusercontent.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/dogecoin.conf
+ https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/dogecoin.conf
 
  
 # linux 
-# https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/releases/download/digitalpay/digitalpay-current-QRcodefix.tar.gz
+# https://github.com/c4pt000/docker-DigitalPay-autosync/releases/download/digitalpay/digitalpay-current-QRcodefix.tar.gz
 
 
 ```
@@ -48,15 +44,15 @@ cd dogecoin
 
 android
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/digitalpay-android-QR.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/digitalpay-android-QR.png)
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/QR-app-store-install.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/QR-app-store-install.png)
 
 
 # to find this repo by QR code see also apple app store and google play suggestion 
  * https://github.com/c4pt000/Google-Play_Store_AND_Apple_App_Store_QR-codes
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/find-repo-by-camera-QR.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/find-repo-by-camera-QR.png)
 
 
 # seperation for blockchain data and digitalpay-client
@@ -100,10 +96,10 @@ dogecoin-qt &
 
 
 for QR fix see
-https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network/blob/main/src/qt/guiutil.cpp
+https://github.com/c4pt000/docker-DigitalPay-autosync/blob/main/src/qt/guiutil.cpp
 
 android app in progress in current review
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/digitalpay-android.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/digitalpay-android.png)
 
 
 <br>
@@ -111,15 +107,16 @@ android app in progress in current review
 <br>
 <br>
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/QR-fix.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/QR-fix.png)
 <br>
 <br>
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/android-app.receive-by-QR.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/android-app.receive-by-QR.png)
 <br>
 <br>
 <br>
 
+for electrum as a server node (WIP template only)
 <br>
 <br>
 
@@ -132,14 +129,14 @@ android app in progress in current review
 <br>
 <br>
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/Screenshot_20210426-040519.png)
+![s1](https://github.com/c4pt000/docker-DigitalPay-autosync/blob/main/Screenshot_20210426-040519.png)
 
 <br>
 <br>
 <br>
 <br>
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/Screenshot_20210426-040526.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/Screenshot_20210426-040526.png)
 
 <br>
 <br>
@@ -159,11 +156,11 @@ du -h /opt/blockchain/
 ```
 
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-splash.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-splash.png)
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-about.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-about.png)
 
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/DigitalPay-main-gui.png)
+![s1](https://raw.githubusercontent.com/c4pt000/docker-DigitalPay-autosync/main/DigitalPay-main-gui.png)
 
 # requires ports 22555 and 22556
 
@@ -262,14 +259,12 @@ docker commit <docker_vm_hash>
 
 # source build (fedora 34)
 ```
+
  yum groupinstall "C Development Tools and Libraries" -y
- 
  yum install git-core libdb-cxx-devel libdb-cxx openssl-devel libevent-devel java-11-openjdk-devel cppzmq-devel \
- qrencode-devel qt5-qtbase-devel.x86_64 qt5-linguist-5.15.2-5.fc34.x86_64 protobuf-devel \
- cargo boost* boost-devel miniupnpc-devel.x86_64 diffutils qt-devel qt4-devel -y
+ qrencode-devel qt5-qtbase-devel.x86_64 qt5-linguist-5.15.2-5.fc34.x86_64 protobuf-devel opencv-devel.x86_64 \
+ opencv-devel-4.5.2-1.fc34.x86_64 cargo boost-devel miniupnpc-devel.x86_64 diffutils -y
 
-
- 
 cp -rf /usr/include/opencv4/opencv2 /usr/include/
 
 cd /opt
@@ -292,33 +287,8 @@ make -j24 install
 
 
 ```
-# build for macos as a dmg (requires Xcode)
-```
-brew install git
-git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
-cd ~/Desktop
-cd DigitalPay-wallet-for-dogecoin-network
-make -j24 clean
 
-brew install automake openssl berkeley-db libtool boost miniupnpc openssl pkg-config protobuf qt5 \
-libevent librsvg python zeromq libnatpmp qrencode sqlite imagemagick libtiff
+![Dogecoin](https://raw.githubusercontent.com/c4pt000/dogecoin-frontend-edit/main/my-doge-deposit.png)
 
-brew link berkeley-db --overwrite --force
- 
-cd /usr/local/include 
-ln -s ../opt/openssl/include/openssl .
+[![Build Status](https://travis-ci.com/dogecoin/dogecoin.svg?branch=master)](https://travis-ci.com/dogecoin/dogecoin)
 
-cd ~/Desktop
-cd DigitalPay-wallet-for-dogecoin-network
-
-pip3 install ds_store mac_alias
-sh autogen.sh
-
-
-./configure --with-incompatible-bdb
-make -j24 deploy              # to build the .app and .dmg for macOS
-
-
-
-```
-![s1](https://media.githubusercontent.com/media/c4pt000/DigitalPay-wallet-for-dogecoin-network/main/my-doge-deposit.png)

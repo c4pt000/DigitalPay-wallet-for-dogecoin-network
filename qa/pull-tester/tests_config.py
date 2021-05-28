@@ -3,8 +3,8 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-SRCDIR="/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network"
-BUILDDIR="/Users/c4pt/Desktop/DigitalPay-wallet-for-dogecoin-network"
+SRCDIR="/home/c4pt/Desktop/CURRENT-FORK/DigitalPay-wallet-for-dogecoin-network/DigitalPay-wallet-for-dogecoin-network-windows"
+BUILDDIR="/home/c4pt/Desktop/CURRENT-FORK/DigitalPay-wallet-for-dogecoin-network/DigitalPay-wallet-for-dogecoin-network-windows"
 EXEEXT=""
 
 # These will turn into comments if they were disabled when configuring.

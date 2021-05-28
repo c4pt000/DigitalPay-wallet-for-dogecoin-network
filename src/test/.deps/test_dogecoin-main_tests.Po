@@ -1123,7 +1123,8 @@ test/test_dogecoin-main_tests.o: test/main_tests.cpp \
  limitedmap.h streams.h support/allocators/zeroafterfree.h \
  support/cleanse.h threadinterrupt.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h test/test_bitcoin.h \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h test/test_bitcoin.h \
  chainparamsbase.h key.h pubkey.h support/allocators/secure.h \
  support/lockedpool.h pubkey.h txdb.h dbwrapper.h clientversion.h \
  utilstrencodings.h leveldb/include/leveldb/db.h \
@@ -2896,6 +2897,7 @@ threadinterrupt.h:
 /usr/include/c++/11/condition_variable:
 /usr/include/c++/11/thread:
 /usr/include/c++/11/bits/std_thread.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 test/test_bitcoin.h:
 chainparamsbase.h:
 key.h:

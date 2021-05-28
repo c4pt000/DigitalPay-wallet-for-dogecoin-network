@@ -1482,9 +1482,10 @@ test/test_dogecoin-test_bitcoin.o: test/test_bitcoin.cpp \
  miner.h txmempool.h net_processing.h net.h addrdb.h addrman.h timedata.h \
  alert.h bloom.h limitedmap.h threadinterrupt.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h validationinterface.h random.h \
- ui_interface.h /usr/include/boost/signals2/last_value.hpp rpc/server.h \
- arith_uint256.h rpc/protocol.h univalue/include/univalue.h \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h validationinterface.h \
+ random.h ui_interface.h /usr/include/boost/signals2/last_value.hpp \
+ rpc/server.h arith_uint256.h rpc/protocol.h univalue/include/univalue.h \
  rpc/register.h script/sigcache.h script/interpreter.h \
  script/script_error.h test/testutil.h \
  /usr/include/boost/test/unit_test.hpp \
@@ -3290,6 +3291,7 @@ threadinterrupt.h:
 /usr/include/c++/11/condition_variable:
 /usr/include/c++/11/thread:
 /usr/include/c++/11/bits/std_thread.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 validationinterface.h:
 random.h:
 ui_interface.h:

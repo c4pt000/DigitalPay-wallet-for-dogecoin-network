@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ff2050d11e9399231235d037b1daf769911e0af9c8210548b5b9e6966fb187b8
-size 244
+.PHONY: FORCE
+all: FORCE
+	$(MAKE) -C .. bitcoin_qt test_bitcoin_qt
+clean: FORCE
+	$(MAKE) -C .. bitcoin_qt_clean test_bitcoin_qt_clean
+check: FORCE
+	$(MAKE) -C .. test_bitcoin_qt_check
+bitcoin-qt bitcoin-qt.exe: FORCE
+	 $(MAKE) -C .. bitcoin_qt

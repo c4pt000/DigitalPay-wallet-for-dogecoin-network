@@ -1547,7 +1547,8 @@ test/test_dogecoin-net_tests.o: test/net_tests.cpp \
  /usr/include/boost/test/tree/global_fixture.hpp hash.h streams.h net.h \
  addrdb.h addrman.h alert.h bloom.h limitedmap.h threadinterrupt.h \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h netbase.h chainparams.h \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h netbase.h chainparams.h \
  chainparamsbase.h
 /usr/include/stdc-predef.h:
 addrman.h:
@@ -3345,6 +3346,7 @@ threadinterrupt.h:
 /usr/include/c++/11/condition_variable:
 /usr/include/c++/11/thread:
 /usr/include/c++/11/bits/std_thread.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
 netbase.h:
 chainparams.h:
 chainparamsbase.h:
