@@ -1,3 +1,4 @@
+https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent
 ```
 git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
 cd DigitalPay-wallet-for-dogecoin-network
