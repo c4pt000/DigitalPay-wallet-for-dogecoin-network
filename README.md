@@ -1,3 +1,6 @@
+
+for an on-demand fully synced wallet (untested) https://github.com/c4pt000/electrum-dogecoin
+
 https://dogecoin.gg/files/dogecoin-bootstrap-2021-05-09.torrent
 ```
 git clone https://github.com/c4pt000/DigitalPay-wallet-for-dogecoin-network
